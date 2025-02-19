@@ -12,6 +12,7 @@ This unit focuses on advanced techniques for crafting and refining prompts to ac
 ## Learning Objectives
 
 By the end of this unit, you will be able to:
+
 - Create effective prompts tailored to specific use cases
 - Refine and iterate on prompts to improve the quality of outputs
 
