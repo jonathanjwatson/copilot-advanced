@@ -4,6 +4,8 @@
 
 The goal of this activity is to demonstrate the importance of prompt engineering by guiding you through the process of building a basic webpage using HTML, CSS, and JavaScript. You will learn how to craft effective prompts to get the best results from AI tools.
 
+For this activity, I would like you to NOT use GitHub Copilot. Instead, use a web-based interface such as [ChatGPT](https://chatgpt.com/).
+
 ## Activity Overview
 
 1. **Introduction to Prompt Engineering**
@@ -157,14 +159,18 @@ The goal of this activity is to demonstrate the importance of prompt engineering
   });
   ```
 
-  **Improved  Prompting:**
+  **Improved Prompting:**
 
-  - If you've been able to successfully implement the code above, try adding the functionality to toggle between dark mode and light mode. 
+  - If you've been able to successfully implement the code above, try adding the functionality to toggle between dark mode and light mode.
+
+  ### Bonus: compare variations
+
+  Once you've built a prompt that you're happy with, try running it against various models and compare the results. If using ChatGPT, click on "Explore GPTs" on the left menu bar.
 
 ## Conclusion
 
-By following this activity, you will gain hands-on experience in prompt engineering and understand how to effectively use AI tools to build a basic webpage. Remember to iterate and refine your prompts to achieve the best results. 
+By following this activity, you will gain hands-on experience in prompt engineering and understand how to effectively use AI tools to build a basic webpage. Remember to iterate and refine your prompts to achieve the best results.
 
-Don't be afraid to version your files, e.g. `index-1.html` or `script-2.js`. You may find it helpful to store your prompts as comments inside the file version for this course. BUT, for best results, keep your versioned files in a separate folder. 
+Don't be afraid to version your files, e.g. `index-1.html` or `script-2.js`. You may find it helpful to store your prompts as comments inside the file version for this course. BUT, for best results, keep your versioned files in a separate folder.
 
 Happy coding!
