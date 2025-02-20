@@ -56,3 +56,15 @@ npm test
 ```
 
 Now that you can run Playwright, ask GitHub Copilot to write an End-to-End test for your Payment Portal.
+
+## Writing an End-to-End Test for the Payment Portal
+
+### Step 5: Create a Test File for the Payment Portal
+
+Create a new file named `payment.spec.js` in your tests directory and ask GitHub Copilot to write a test for you.
+
+NOTE: This is most easily accomplished using Copilot Chat and adding files for it to reference.
+
+This will run the `payment.spec.js` test file which unfortunately will fail because you are not running the React app.
+
+## Bonus: setup a new react app, drop the Payment Portal component in and get the tests to pass.
