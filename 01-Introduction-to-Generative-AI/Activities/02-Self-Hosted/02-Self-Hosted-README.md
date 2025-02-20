@@ -40,6 +40,11 @@ Try using different models and prompts to see how the outputs vary. Update the `
 
 [Ollama Model Library](https://ollama.com/library)
 
+## Questions
+
+1. What are some of the benefits to self-hosting?
+2. What are some of the downsides?
+
 ## Conclusion
 
 By completing this activity, you have successfully installed Ollama on your local machine and explored various models. You are now ready to use Ollama for your generative AI projects. (NOTE: for this course, it is recommended you turn Ollama OFF to preserve computing power.)
