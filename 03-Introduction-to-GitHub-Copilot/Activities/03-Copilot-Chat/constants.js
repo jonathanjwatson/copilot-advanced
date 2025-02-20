@@ -1,0 +1,30 @@
+const MINIMUM_VEHICLE_AGE = 1; // in years
+const MAXIMUM_AGE_IN_DAYS = 36500; // 100 years
+const INFLATION_PERCENTAGE = 2.5; // annual inflation rate
+
+const MAXIMUM_VEHICLE_SPEED = 120; // in km/h
+const MINIMUM_WAGE = 15000; // in USD per year
+const MAXIMUM_LOAN_AMOUNT = 500000; // in USD
+
+const TAX_RATE = 0.22; // 22%
+const DISCOUNT_RATE = 0.1; // 10%
+const INTEREST_RATE = 0.05; // 5%
+
+const MAXIMUM_RENTAL_PERIOD = 30; // in days
+const MINIMUM_RENTAL_PERIOD = 1; // in days
+const MAXIMUM_BOOKING_ADVANCE = 365; // in days
+
+module.exports = {
+    MINIMUM_VEHICLE_AGE,
+    MAXIMUM_AGE_IN_DAYS,
+    INFLATION_PERCENTAGE,
+    MAXIMUM_VEHICLE_SPEED,
+    MINIMUM_WAGE,
+    MAXIMUM_LOAN_AMOUNT,
+    TAX_RATE,
+    DISCOUNT_RATE,
+    INTEREST_RATE,
+    MAXIMUM_RENTAL_PERIOD,
+    MINIMUM_RENTAL_PERIOD,
+    MAXIMUM_BOOKING_ADVANCE
+};
