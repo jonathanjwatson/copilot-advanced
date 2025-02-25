@@ -12,7 +12,7 @@ While AI encompasses a broad range of technologies and applications, LLMs are sp
 
 ## Some AI Options (should all be free to try)
 
-1. **OpenAI GPT-3**
+1. **OpenAI GPT-4**
    - URL: [OpenAI GPT-4](https://openai.com/index/gpt-4/)
 2. **Google Gemini**
    - URL: [Google Gemini](https://gemini.google.com/app)
