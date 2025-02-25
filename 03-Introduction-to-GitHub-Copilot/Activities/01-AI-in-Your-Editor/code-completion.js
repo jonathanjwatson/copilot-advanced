@@ -29,6 +29,7 @@ function isLeapYear(year) {
 
 // TODO: Add a new function that randomly generates a number between 1 and 10.
 
+
 // Example usage
 const date1 = new Date("2000-01-01");
 const date2 = new Date("2020-01-01");

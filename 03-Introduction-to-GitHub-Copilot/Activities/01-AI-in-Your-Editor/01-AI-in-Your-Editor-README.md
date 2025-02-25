@@ -21,10 +21,12 @@ While GitHub Copilot focuses on code completion and suggestions, Copilot Chat is
 
 Here are some common keyboard shortcuts to help you get the most out of GitHub Copilot:
 
-- **Trigger Suggestion**: `Ctrl + Space` (Windows/Linux) or `Cmd + Space` (Mac)
+- **Trigger Suggestion**: `Alt \`
 - **Accept Suggestion**: `Tab` or `Enter`
 - **Dismiss Suggestion**: `Esc`
 - **Next Suggestion**: `Alt + ]` (Windows/Linux) or `Option + ]` (Mac)
 - **Previous Suggestion**: `Alt + [` (Windows/Linux) or `Option + [` (Mac)
+
+All these keybindings are customizable. Just open "Keyboard Shortcuts" and search "Copilot".
 
 We hope this activity helps you understand and utilize GitHub Copilot effectively. Happy coding!
