@@ -44,6 +44,8 @@ In this activity, you will learn how to install Continue in Visual Studio Code a
 2. Use the Continue extension to interact with your codebase.
 3. Verify that the Continue extension is successfully communicating with Ollama by checking the output in the Continue panel.
 
+NOTE: Video walkthrough here: https://youtu.be/Ehutnn1AqbE?si=rxJG3otos92sLvYU
+
 ## Conclusion
 
 You have successfully installed and configured the Continue extension in Visual Studio Code and integrated it with a locally running instance of Ollama. You can now leverage the capabilities of both tools to enhance your development workflow.
