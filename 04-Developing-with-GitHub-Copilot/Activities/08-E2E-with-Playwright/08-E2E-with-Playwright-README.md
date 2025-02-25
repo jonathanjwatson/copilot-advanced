@@ -18,7 +18,7 @@ npx playwright install
 
 ### Step 2: Install Playwright in the Project
 
-Cd into the server folder and run the following command:
+Cd into the app folder and run the following command:
 
 ```bash
 npm install @playwright
