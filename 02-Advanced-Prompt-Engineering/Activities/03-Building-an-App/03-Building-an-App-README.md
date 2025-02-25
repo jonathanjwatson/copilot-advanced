@@ -26,7 +26,6 @@ Feel free to experiment and see what you can create!
 
 1. Were you concerned about running commands provided to your by an AI?
 2. What differences (if any) did you noticed between the instructions and the actual setup? What is the potential problem here?
-3. 
 
 ## Important Note
 
