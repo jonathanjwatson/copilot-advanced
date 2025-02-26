@@ -1,0 +1,38 @@
+body {
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar {
+    background-color: #1f1f1f;
+}
+
+.dark-mode .btn-outline-dark {
+    border-color: #ffffff;
+    color: #ffffff;
+}
+:root {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --navbar-background-color: #1f1f1f;
+    --btn-border-color: #ffffff;
+    --btn-text-color: #ffffff;
+}
+
+.dark-mode {
+    background-color: var(--background-color);
+    color: var(--text-color);
+}
+
+.dark-mode .navbar {
+    background-color: var(--navbar-background-color);
+}
+
+.dark-mode .btn-outline-dark {
+    border-color: var(--btn-border-color);
+    color: var(--btn-text-color);
+}

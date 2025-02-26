@@ -28,6 +28,26 @@ function isLeapYear(year) {
 }
 
 // TODO: Add a new function that randomly generates a number between 1 and 10.
+function generateRandomNumber() {
+  return Math.floor(Math.random() * 10) + 1;
+}
+
+
+// TODO: add a new function that takes in a single integer parameter and returns the factorial of that number.
+function factorial(number) {
+  // run a type check to ensure the parameter is of type number
+  if (typeof number !== "number") {
+    return "Please provide a valid number";
+  }
+  // run a check to ensure the parameter is actually an integer
+  // if the number is not an integer, convert it to an integer
+
+  if (number === 0) {
+    return 1;
+  } else {
+    return number * factorial(number - 1);
+  }
+}
 
 
 // Example usage
@@ -40,3 +60,8 @@ console.log(reverseString(name)); // "tolipoC buHtiG"
 
 const year = 2024;
 console.log(isLeapYear(year)); // true
+
+console.log(generateRandomNumber()); // Random number between 1 and 10
+
+const number = 5;
+console.log(factorial(number)); // 120

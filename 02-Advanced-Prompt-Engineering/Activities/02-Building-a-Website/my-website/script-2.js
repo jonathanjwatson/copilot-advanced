@@ -1,18 +1,13 @@
 document.addEventListener("DOMContentLoaded", function () {
+    const mainContent = document.querySelector("main");
     const toggleDarkModeButton = document.getElementById("toggle-dark-mode");
-    const body = document.body;
-    const header = document.querySelector("header");
-    const footer = document.querySelector("footer");
-    
-    toggleDarkModeButton.addEventListener("click", function () {
-        body.classList.toggle("dark-mode");
-        header.classList.toggle("bg-secondary");
-        footer.classList.toggle("bg-primary");
-    });
-
     const gameForm = document.getElementById("game-form");
     const gameList = document.getElementById("game-list");
     const gameNameInput = document.getElementById("game-name");
+    
+    toggleDarkModeButton.addEventListener("click", function () {
+        document.body.classList.toggle("dark-mode");
+    });
     
     gameForm.addEventListener("submit", function (event) {
         event.preventDefault();

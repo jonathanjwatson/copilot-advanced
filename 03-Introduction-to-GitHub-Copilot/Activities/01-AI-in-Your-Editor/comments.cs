@@ -1,5 +1,4 @@
 // TODO: Add Javadocs to this function
-
 public class Invoice
 {
     public decimal BaseCost { get; set; }
@@ -7,6 +6,11 @@ public class Invoice
     public decimal Total { get; set; }
 }
 
+/// <summary>
+/// Generates an invoice based on the provided base cost.
+/// </summary>
+/// <param name="baseCost">The base cost of the invoice.</param>
+/// <returns>An <see cref="Invoice"/> object containing the base cost, tax, and total amount.</returns>
 public class InvoiceGenerator
 {
     private const decimal TaxRate = 0.1m;
