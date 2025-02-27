@@ -1,18 +1,28 @@
-function processPeopleList(people) {
+interface Person {
+  createdAt: Date;
+  firstName: string;
+  favoriteColor: string;
+  birthdate: Date;
+  age?: number;
+}
+
+function processPeopleList(people: Person[]): Person[] {
   // Sort by birthdate
-  people.sort(function (a, b) {
+  people.sort((a, b) => {
     return new Date(a.birthdate).getTime() - new Date(b.birthdate).getTime();
   });
+
   // Filter out objects whose favoriteColor is purple
-  var filteredPeople = people.filter(function (person) {
+  const filteredPeople = people.filter(person => {
     return person.favoriteColor.toLowerCase() !== "purple";
   });
+
   // Calculate age and add it to the object
-  var today = new Date();
-  filteredPeople.forEach(function (person) {
-    var birthdate = new Date(person.birthdate);
-    var age = today.getFullYear() - birthdate.getFullYear();
-    var monthDifference = today.getMonth() - birthdate.getMonth();
+  const today = new Date();
+  filteredPeople.forEach(person => {
+    const birthdate = new Date(person.birthdate);
+    let age = today.getFullYear() - birthdate.getFullYear();
+    const monthDifference = today.getMonth() - birthdate.getMonth();
     if (
       monthDifference < 0 ||
       (monthDifference === 0 && today.getDate() < birthdate.getDate())
@@ -21,10 +31,12 @@ function processPeopleList(people) {
     }
     person.age = age;
   });
+
   return filteredPeople;
 }
+
 // Example array of people objects
-var peopleList = [
+const peopleList: Person[] = [
   {
     createdAt: new Date("2023-01-01"),
     firstName: "Alice",

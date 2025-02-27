@@ -29,6 +29,22 @@ We aim to be smarter than the machines! By clearly understanding our end goal, w
 - Nested describe blocks for individual features.
 - Nested it (or test) blocks for unique outcomes.
 
+## Unit Tests for Payment Portal
+
+We have implemented unit tests for our payment portal using react-testing-library. These tests cover the following aspects:
+
+- **Form Rendering**: Ensures that all form elements are rendered correctly.
+- **Form Validation**: Checks for validation errors when form fields are empty or invalid.
+- **Form Submission**: Verifies that the form can be submitted successfully with valid data.
+
+By following the best practices outlined above, we ensure that our tests are clear, maintainable, and automated to catch issues early.
+
+### Example Test Cases
+
+- Rendering the payment form and its inputs.
+- Validation errors for empty or invalid inputs.
+- Successful form submission with valid data.
+
 ### End-to-End Tests
 
 - Expensive to run.
